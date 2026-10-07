@@ -49,7 +49,6 @@ a {
 
 .container {
   width: min(calc(100% - 48px), var(--max-width));
-
   margin: 0 auto;
 }
 
