@@ -1,0 +1,309 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 500"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">ABN Enterprise Management System</title>
+  <desc id="desc">
+    ABN Enterprise Management System dashboard and enterprise operations illustration.
+  </desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07110f"/>
+      <stop offset="100%" stop-color="#10211d"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+
+    <filter id="shadow"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="140%">
+      <feDropShadow
+        dx="0"
+        dy="12"
+        stdDeviation="12"
+        flood-color="#000000"
+        flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="32" fill="url(#bg)"/>
+
+  <!-- Decorative grid -->
+  <g opacity=".08" stroke="#5eead4">
+    <path d="M40 80H760"/>
+    <path d="M40 140H760"/>
+    <path d="M40 200H760"/>
+    <path d="M40 260H760"/>
+    <path d="M40 320H760"/>
+    <path d="M40 380H760"/>
+    <path d="M40 440H760"/>
+
+    <path d="M100 40V460"/>
+    <path d="M180 40V460"/>
+    <path d="M260 40V460"/>
+    <path d="M340 40V460"/>
+    <path d="M420 40V460"/>
+    <path d="M500 40V460"/>
+    <path d="M580 40V460"/>
+    <path d="M660 40V460"/>
+    <path d="M740 40V460"/>
+  </g>
+
+  <!-- Main application window -->
+  <rect x="80"
+        y="70"
+        width="640"
+        height="360"
+        rx="22"
+        fill="#0b1916"
+        stroke="#24534b"
+        stroke-width="2"
+        filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <rect x="80"
+        y="70"
+        width="640"
+        height="62"
+        rx="22"
+        fill="#10211d"/>
+
+  <circle cx="112" cy="101" r="8" fill="#ef4444"/>
+  <circle cx="138" cy="101" r="8" fill="#eab308"/>
+  <circle cx="164" cy="101" r="8" fill="#22c55e"/>
+
+  <!-- ABN mark -->
+  <rect x="195"
+        y="87"
+        width="34"
+        height="28"
+        rx="7"
+        fill="url(#accent)"/>
+
+  <text x="212"
+        y="107"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13"
+        font-weight="700"
+        fill="#ffffff">
+    ABN
+  </text>
+
+  <text x="248"
+        y="106"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="16"
+        font-weight="700"
+        fill="#e6fffa">
+    Enterprise Management System
+  </text>
+
+  <!-- Sidebar -->
+  <rect x="80"
+        y="132"
+        width="150"
+        height="298"
+        fill="#091613"/>
+
+  <!-- Menu items -->
+  <g font-family="Arial, Helvetica, sans-serif"
+     font-size="12"
+     fill="#9ccac2">
+
+    <rect x="94" y="151" width="122" height="34" rx="9" fill="#12352f"/>
+    <circle cx="111" cy="168" r="5" fill="#14b8a6"/>
+    <text x="124" y="172">Dashboard</text>
+
+    <circle cx="111" cy="207" r="5" fill="#477a71"/>
+    <text x="124" y="211">Human Resources</text>
+
+    <circle cx="111" cy="246" r="5" fill="#477a71"/>
+    <text x="124" y="250">Fleet</text>
+
+    <circle cx="111" cy="285" r="5" fill="#477a71"/>
+    <text x="124" y="289">Inventory</text>
+
+    <circle cx="111" cy="324" r="5" fill="#477a71"/>
+    <text x="124" y="328">Procurement</text>
+
+    <circle cx="111" cy="363" r="5" fill="#477a71"/>
+    <text x="124" y="367">Finance</text>
+
+    <circle cx="111" cy="402" r="5" fill="#477a71"/>
+    <text x="124" y="406">CRM</text>
+  </g>
+
+  <!-- Dashboard -->
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <text x="260"
+          y="164"
+          font-size="20"
+          font-weight="700"
+          fill="#f0fffc">
+      Executive Dashboard
+    </text>
+
+    <text x="260"
+          y="185"
+          font-size="11"
+          fill="#729d95">
+      ABN Enterprise Operations
+    </text>
+
+    <!-- KPI cards -->
+    <rect x="260" y="205" width="130" height="70" rx="12"
+          fill="#102a24" stroke="#1d5148"/>
+
+    <text x="276" y="229"
+          font-size="10"
+          fill="#7faea5">
+      ACTIVE ASSETS
+    </text>
+
+    <text x="276" y="257"
+          font-size="24"
+          font-weight="700"
+          fill="#5eead4">
+      248
+    </text>
+
+    <rect x="405" y="205" width="130" height="70" rx="12"
+          fill="#102a24" stroke="#1d5148"/>
+
+    <text x="421" y="229"
+          font-size="10"
+          fill="#7faea5">
+      OPERATIONS
+    </text>
+
+    <text x="421" y="257"
+          font-size="24"
+          font-weight="700"
+          fill="#5eead4">
+      96%
+    </text>
+
+    <rect x="550" y="205" width="130" height="70" rx="12"
+          fill="#102a24" stroke="#1d5148"/>
+
+    <text x="566" y="229"
+          font-size="10"
+          fill="#7faea5">
+      EFFICIENCY
+    </text>
+
+    <text x="566" y="257"
+          font-size="24"
+          font-weight="700"
+          fill="#5eead4">
+      87%
+    </text>
+
+    <!-- Chart panel -->
+    <rect x="260"
+          y="295"
+          width="275"
+          height="112"
+          rx="14"
+          fill="#0e201c"
+          stroke="#1d5148"/>
+
+    <text x="278"
+          y="319"
+          font-size="12"
+          font-weight="700"
+          fill="#d9f7f1">
+      Operations Performance
+    </text>
+
+    <path d="M280 382
+             L315 365
+             L350 372
+             L385 345
+             L420 352
+             L455 331
+             L490 340
+             L515 316"
+          fill="none"
+          stroke="#14b8a6"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M280 382
+             L315 365
+             L350 372
+             L385 345
+             L420 352
+             L455 331
+             L490 340
+             L515 316
+             L515 390
+             L280 390 Z"
+          fill="#14b8a6"
+          opacity=".08"/>
+
+    <!-- Activity -->
+    <rect x="550"
+          y="295"
+          width="130"
+          height="112"
+          rx="14"
+          fill="#0e201c"
+          stroke="#1d5148"/>
+
+    <text x="566"
+          y="319"
+          font-size="12"
+          font-weight="700"
+          fill="#d9f7f1">
+      System Status
+    </text>
+
+    <circle cx="570" cy="345" r="5" fill="#22c55e"/>
+    <text x="583" y="349"
+          font-size="10"
+          fill="#9ccac2">
+      Fleet Online
+    </text>
+
+    <circle cx="570" cy="369" r="5" fill="#22c55e"/>
+    <text x="583" y="373"
+          font-size="10"
+          fill="#9ccac2">
+      Inventory
+    </text>
+
+    <circle cx="570" cy="393" r="5" fill="#eab308"/>
+    <text x="583" y="397"
+          font-size="10"
+          fill="#9ccac2">
+      Procurement
+    </text>
+
+  </g>
+
+  <!-- Bottom brand -->
+  <text x="400"
+        y="465"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="2"
+        fill="#5eead4">
+    ABN ENTERPRISE MANAGEMENT SYSTEM
+  </text>
+
+</svg>
