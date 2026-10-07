@@ -584,23 +584,52 @@ a {
   }
 
   .hero-content {
-    grid-template-columns: 1fr;
+    position: relative;
+    z-index: 1;
 
-    gap: 30px;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+
+    align-items: center;
+
+    gap: 20px;
   }
 
   .hero-copy {
-    max-width: 760px;
+    position: relative;
+    z-index: 2;
+
+    max-width: 620px;
   }
 
   .hero-visual {
-    min-height: 420px;
+    position: relative;
 
-    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 460px;
+
+    overflow: visible;
   }
 
   .hero-visual img {
-    max-width: 650px;
+    position: relative;
+
+    width: 115%;
+    max-width: 620px;
+    height: auto;
+
+    display: block;
+
+    transform: translateX(15px);
+
+    opacity: 0.96;
   }
 
   .cards {
