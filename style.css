@@ -98,9 +98,18 @@ a {
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: 800;
-  letter-spacing: -0.6px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logo img {
+  display: block;
+  width: 150px;
+  height: auto;
+  max-height: 52px;
+  object-fit: contain;
 }
 
 .logo span {
